@@ -1,63 +1,57 @@
-##Expense Tracker
+💰 Expense Tracker
 
-A simple Java console application to manage and track personal expenses. Users can add, view, edit, delete expenses, and calculate the total amount spent.
+A simple Java console application to manage and track personal expenses. Add, view, edit, delete expenses, and calculate the total amount spent—all from your terminal.
 
-Features
+🚀 Features
 
-Add Expense – Input date, category, description, and amount.
+✅ Add new expenses with date, category, description, and amount
 
-View Expenses – Display a list of all expenses with details.
+✅ View all recorded expenses
 
-Edit Expense – Update any expense entry by its index.
+✅ Edit existing expenses by index
 
-Delete Expense – Remove an expense by its index.
+✅ Delete expenses by index
 
-Calculate Total – Show the total of all recorded expenses.
+✅ Calculate total expenses
 
-Technologies Used
+🛠 Technologies
 
 Language: Java
 
-Data Structure: ArrayList to store expenses
+Data Structure: ArrayList
 
-Input Handling: Scanner for user input
+Input Handling: Scanner
 
-Classes Overview
-1. Expense
+📂 Classes Overview
+1️⃣ Expense
 
-Represents a single expense with the following attributes:
+Stores a single expense
 
-date – Date of the expense (YYYY-MM-DD)
+Attributes: date, category, description, amount
 
-category – Expense category (e.g., Food, Transport)
+Includes getters and setters
 
-description – Brief description of the expense
+2️⃣ ExpenseTracker
 
-amount – Expense amount
+Handles core operations:
 
-Includes getters and setters for all fields.
+addExpense()
 
-2. ExpenseTracker
+viewExpenses()
 
-Handles operations related to managing expenses:
+editExpense()
 
-addExpense() – Add a new expense
+deleteExpense()
 
-viewExpenses() – List all expenses
+calculateTotal()
 
-editExpense() – Modify an existing expense
+3️⃣ Main
 
-deleteExpense() – Remove an expense
+Console-based menu for user interaction
 
-calculateTotal() – Calculate total expense
+💻 Usage
 
-3. Main
-
-Provides a console menu for the user to interact with the Expense Tracker.
-
-Usage
-
-Compile all Java files:
+Compile all files:
 
 javac Main.java ExpenseTracker.java Expense.java
 
@@ -67,28 +61,16 @@ Run the application:
 java Main
 
 
-Use the menu to perform operations:
+Use the menu:
 
-Press 1 to add a new expense.
+1. Add Expense
+2. View Expenses
+3. Edit Expense
+4. Delete Expense
+5. Calculate total
+6. Exit
 
-Press 2 to view all expenses.
-
-Press 3 to edit an expense.
-
-Press 4 to delete an expense.
-
-Press 5 to calculate the total expense.
-
-Press 6 to exit the program.
-
-Example
- --- Expense Tracker ---
-1.Add Expense
-2.View Expenses
-3.Edit Expense
-4.Delete Expense
-5.Calculate total
-6.Exit
+📖 Example
 Enter your choice: 1
 Enter Date (YYYY-MM-DD): 2026-02-15
 Enter Category: Food
@@ -96,6 +78,6 @@ Enter Description: Lunch at Cafe
 Enter Amount: 250
 Expense added successfully!
 
-License
+📄 License
 
-This project is open source and free to use for learning and personal purposes.
+This project is open-source and free to use for learning and personal purposes.
